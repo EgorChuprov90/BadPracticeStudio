@@ -1,0 +1,27 @@
+.nav{
+   display: flex;
+   align-items: center;
+   gap: 52px;
+   white-space: nowrap;
+   &__btn{
+      background: transparent;
+      color: #ffffff;
+      font-size: 16px;
+   }
+   &__select{
+      color: #ffffff;
+      cursor: pointer;
+      outline: none;
+      border: 3px solid #8030EB;
+      border-radius: 40px;
+      width: 64px;
+      height: 40px;
+      background: transparent;
+   }
+   &__select:focus{
+      background: #8030EB;
+   }
+   &__select #first:active{
+display: block;
+   }
+}

@@ -1,0 +1,16 @@
+.tittle{
+   font-size: 32px;
+   line-height: 39px;
+   position: relative;
+   width: max-content;
+   margin-bottom: 55px;
+   &::after{
+      content: '';
+      position: absolute;
+      bottom:-15px;
+      left: 0;
+      height: 4px;
+      background:#8030EB;
+      width: calc(100% + 15px);
+   }
+}

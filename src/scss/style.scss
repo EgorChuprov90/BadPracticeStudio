@@ -1,0 +1,23 @@
+//Шрифты
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+
+//Обнуление
+@import './nullstyle';
+
+//Сетка
+@import './grid';
+
+
+//Компоненты
+@import './components/header';
+@import './components/nav';
+@import './components/carousel';
+@import './components/tittle';
+@import './components/about';
+@import './components/advantage';
+@import './components/games';
+@import './components/game';
+@import './components/contacts';
+@import './components/cat';
+@import './components/footer';

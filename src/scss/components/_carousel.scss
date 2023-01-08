@@ -1,0 +1,9 @@
+.carousel{
+   padding-top: 215px;
+margin-bottom: 100px;
+   &__screenshot{
+      max-width: 210px;
+      max-height: 370px;
+      object-fit: contain;
+   }
+}

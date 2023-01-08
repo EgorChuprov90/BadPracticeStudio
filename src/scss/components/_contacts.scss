@@ -1,0 +1,46 @@
+.contacts{
+
+
+   &__flex{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   &__list{
+      display: grid; 
+      grid-template-columns: 33.3% 33.3% 33.3%; 
+      grid-template-rows: 50% 50%; 
+      gap: 45px 53px; 
+      grid-template-areas: 
+        "vk inst linked"
+        "mail mail mail"; 
+   }
+   &__buttons{
+   background: url('C:/Users/polin/Desktop/badpracticestudio/src/img/VK.png') no-repeat;
+   background-position: center;
+   background-size: contain;
+   min-width: 35px;
+   min-height: 35px;
+cursor: pointer;
+   }
+}
+
+.vk{
+   grid-area: vk;
+}
+.inst{
+   grid-area: inst;
+}
+.linked{
+   grid-area: linked;
+}
+.mail{
+   background: #ffffff;
+   color: #8030EB;
+   line-height: 20px;
+   border-radius: 40px;
+   grid-area: mail;
+display: flex;
+align-items: center;
+justify-content: center;
+}

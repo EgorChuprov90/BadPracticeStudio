@@ -1,0 +1,52 @@
+.card{
+   position: relative;
+   flex: 1 0 33.3%;
+   overflow: hidden;
+   max-width: 364px;
+   margin-bottom: 42px;
+   background: rgba(223, 143, 255, 0.33);
+box-shadow: inset 0px -10px 25px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(15px);
+border-radius: 39px;
+width: max-content;
+padding: 66px 122px  94px 122px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+&__img{
+   width: 121px;
+   height: 121px;
+   transition: all 0.7s linear;
+}
+&__active{
+   height: 100%;
+position: absolute;
+top: 100%;
+left: 0;
+transition: all 0.7s linear;
+padding: 20px 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 25px;
+text-align: center;
+line-height: 19.5px;
+background: rgba(223, 143, 255, 0.33);
+box-shadow: inset 0px -10px 25px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(15px);
+border-radius: 39px;
+}
+&:hover &__active{
+top: 0;
+}
+&:hover &__img{
+   transform: scale(1.5);
+   }
+&:hover &__tittle{
+   visibility: hidden
+   }
+}

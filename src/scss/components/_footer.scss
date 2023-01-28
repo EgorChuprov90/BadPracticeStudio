@@ -10,9 +10,26 @@
       height: 124px;
    }
    &__list{
+      font-size: calc(8px + 8 * (100vw / 1920));
 display: flex;
 align-items: center;
 justify-content: end;
 gap: 30px;
    }
+}
+
+@media (max-width: 600px){
+   .footer{
+& > .container{
+padding: 0 5px;
+}
+      &__flex{
+
+      }
+      
+      &__list{
+         flex-direction: column;
+         gap: 5px;
+      }
+      }
 }

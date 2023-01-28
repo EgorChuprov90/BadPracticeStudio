@@ -1,21 +1,27 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import About from "./components/About";
-import SimpleSlider from "./components/Carousel";
-import Carousel from "./components/Carousel";
+import SimpleSlider from "./components/SimpleSlider";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import Games from "./components/Games";
-import Header from "./components/Header";
+import Header from './components/Header'
+import getMove from './components/contats';
+import getAnimate from "./components/head";
+
 
 function App() {
+   useEffect(() => getMove());
+   useEffect(() => getAnimate());
    return (
       <Fragment>
-         <Header />
-         <SimpleSlider />
-         <About />
-         <Games />
-         <Contacts />
-         <Footer />
+         <div className="wrapper">
+            <Header />
+            <SimpleSlider />
+            <About />
+            <Games />
+            <Contacts />
+            <Footer />
+         </div>
       </Fragment>
    )
 }

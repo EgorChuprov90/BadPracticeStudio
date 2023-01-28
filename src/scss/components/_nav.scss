@@ -3,10 +3,16 @@
    align-items: center;
    gap: 52px;
    white-space: nowrap;
+   position: relative;
+   height: 100%;
    &__btn{
       background: transparent;
       color: #ffffff;
       font-size: 16px;
+   }
+   &_active{
+      transition: all 0.5s linear;
+      color: #8030EB;
    }
    &__select{
       color: #ffffff;
@@ -24,4 +30,25 @@
    &__select #first:active{
 display: block;
    }
+&__span
+   {
+      position: absolute;
+      width: 4px;
+      background: #8030EB;
+      bottom: 0;
+      transition: all 0.3s linear;
+   }
 }
+
+
+@media (max-width: 768px){
+   .nav{
+      gap: 0px;
+      &__btn {
+      display: none;
+   }
+&__span {
+display: none;
+}
+
+}}

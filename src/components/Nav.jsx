@@ -9,6 +9,7 @@ function Nav() {
          <li><NavBtn menuText={'Наши игры'} /></li>
          <li><NavBtn menuText={'Контакты'} /></li>
          <li><Language /></li>
+         <div className="nav__span"></div>
       </ul>
    )
 }

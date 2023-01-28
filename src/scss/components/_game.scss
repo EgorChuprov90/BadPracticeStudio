@@ -17,11 +17,16 @@ justify-content: center;
 
 
 &__img{
-   width: 121px;
+   min-width: 121px;
    height: 121px;
    transition: all 0.7s linear;
+   z-index: 2;
+}
+&__description{
+   font-size: calc(10px + 6 * (100vw / 1920));
 }
 &__active{
+   font-size: calc(16px + 4 * (100vw / 1920));
    height: 100%;
 position: absolute;
 top: 100%;
@@ -39,6 +44,11 @@ background: rgba(223, 143, 255, 0.33);
 box-shadow: inset 0px -10px 25px rgba(255, 255, 255, 0.25);
 backdrop-filter: blur(15px);
 border-radius: 39px;
+z-index: 3;
+}
+&__tittle{
+   min-width: 121px;
+   transition: all 0.3s ease-out;
 }
 &:hover &__active{
 top: 0;
@@ -47,6 +57,6 @@ top: 0;
    transform: scale(1.5);
    }
 &:hover &__tittle{
-   visibility: hidden
+   opacity: 0;
    }
 }

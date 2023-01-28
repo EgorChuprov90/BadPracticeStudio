@@ -4,6 +4,7 @@
 line-height: 40px;
 flex: 1 0 33.3%;
 margin-bottom: 70px;
+flex-wrap: nowrap;
 &:nth-child(3n+2){
    justify-content: center;
 }

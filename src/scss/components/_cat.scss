@@ -1,18 +1,27 @@
 .cat{
+   display: block;
    position: relative;
-   min-width: 712px;
+   min-width: 60%;
    width: min-content;
-   margin-bottom: -29px;
+   margin-bottom: -3%;
    &__eye{
+      width: 11.5%;
       position: absolute;
+      transform: translate(0,0);
    }
 }
 
 .eye1{
-   top: 50%;
+   top: 45%;
    left: 27%;
 }
 .eye2{
-   top: 50%;
+   top: 45%;
    left: 61%;
+}
+
+@media (max-width: 750px){
+.cat{
+   min-width: 100%;
+}
 }

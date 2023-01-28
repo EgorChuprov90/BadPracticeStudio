@@ -1,16 +1,19 @@
 .contacts{
-
-
    &__flex{
+      gap: 5%;
       display: flex;
       align-items: center;
       justify-content: space-between;
    }
    &__list{
+      flex: 1 0 auto;
+      max-width: 100%;
+      justify-content: center;
+      width: 20%;
       display: grid; 
       grid-template-columns: 33.3% 33.3% 33.3%; 
       grid-template-rows: 50% 50%; 
-      gap: 45px 53px; 
+      gap: calc(15px + (15) * (100vw / 1920)) calc(0px + (0) * (100vw / 1920));
       grid-template-areas: 
         "vk inst linked"
         "mail mail mail"; 
@@ -22,6 +25,11 @@
    min-width: 35px;
    min-height: 35px;
 cursor: pointer;
+transition: all 0.5s linear;
+&:hover{
+   transform: scale(0.93);
+   opacity: 0.7;
+}
    }
 }
 
@@ -43,4 +51,23 @@ cursor: pointer;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+
+
+
+@media (max-width: 750px){
+   .contacts{
+
+      &__flex{
+         flex-direction: column;
+         gap: 60px;
+      }
+      
+      &__list{
+         grid-template-columns: 100% 100% 100%;
+         grid-template-rows: 50% 50%;
+         gap: 25px 35px;
+      }
+
+      }
 }

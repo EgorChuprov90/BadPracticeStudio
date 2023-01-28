@@ -8,7 +8,21 @@ margin-bottom: 86px;
 
 &__list{
    display: flex;
+   align-items: center;
    justify-content: center;
    flex-wrap: wrap;
 }
+}
+
+@media (max-width: 750px){
+   .about{
+
+      &__text{
+
+      }
+      
+      &__list{
+         flex-direction: column;
+      }
+      }
 }

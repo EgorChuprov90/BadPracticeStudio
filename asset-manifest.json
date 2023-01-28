@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BadPracticeStudio/static/css/main.6f3ab507.css",
+    "main.js": "/BadPracticeStudio/static/js/main.5045550c.js",
+    "static/media/carousel2.png": "/BadPracticeStudio/static/media/carousel2.f4b65ff6db36524c60d8.png",
+    "static/media/carousel1.png": "/BadPracticeStudio/static/media/carousel1.23b4f8fd48403945eada.png",
+    "static/media/Vector3.svg": "/BadPracticeStudio/static/media/Vector3.b06410552ec76c51860c.svg",
+    "static/media/cat.svg": "/BadPracticeStudio/static/media/cat.5f9df1cf23d869076e018952f7c20971.svg",
+    "static/media/comingsoon.jpg": "/BadPracticeStudio/static/media/comingsoon.13fa9930ff8fa49add2a.jpg",
+    "static/media/slick.svg": "/BadPracticeStudio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/BadPracticeStudio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/BadPracticeStudio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/BadPracticeStudio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/BadPracticeStudio/index.html",
+    "static/media/Lglaz.svg": "/BadPracticeStudio/static/media/Lglaz.c17d8ab94dbb5daa0ee51c93a4b0feec.svg",
+    "static/media/Pglaz.svg": "/BadPracticeStudio/static/media/Pglaz.88b65855d2bbdabfbbf33e148d2e0b89.svg",
+    "main.6f3ab507.css.map": "/BadPracticeStudio/static/css/main.6f3ab507.css.map",
+    "main.5045550c.js.map": "/BadPracticeStudio/static/js/main.5045550c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f3ab507.css",
+    "static/js/main.5045550c.js"
+  ]
+}
